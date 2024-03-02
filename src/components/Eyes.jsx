@@ -24,7 +24,11 @@ const Eyes = () => {
   return (
     <>
       <div className="eyes w-full h-screen overflow-hidden">
-        <div data-scroll  data-scroll-speed="-0.5" className="w-full h-full bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg)] bg-no-repeat bg-cover bg-center relative">
+        <div
+          data-scroll
+          data-scroll-speed="-0.5"
+          className="w-full h-full bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg)] bg-no-repeat bg-cover bg-center relative"
+        >
           {/* absolte div */}
           <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] z-10  flex gap-10">
             {/* Outer white eye */}
@@ -43,7 +47,7 @@ const Eyes = () => {
                   }}
                   className="line w-full h-10  absolute top-1/2 left-1/2  -translate-x-[50%] -translate-y-[50%]"
                 >
-                  <div className="w-10 h-10 bg-zinc-100 rounded-full"></div>
+                  <div className="w-10 h-10 bg-zinc-100 rounded-full max-sm:w-1/2 max-sm:h-1/2"></div>
                 </div>
               </div>
             </div>
@@ -64,7 +68,7 @@ const Eyes = () => {
                   }}
                   className="line w-full h-10  absolute top-1/2 left-1/2  -translate-x-[50%] -translate-y-[50%]"
                 >
-                  <div className="w-10 h-10 bg-zinc-100 rounded-full"></div>
+                  <div className="w-10 h-10 bg-zinc-100 rounded-full max-sm:w-1/2 max-sm:h-1/2"></div>
                 </div>
               </div>
             </div>

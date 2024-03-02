@@ -6,14 +6,14 @@ const Footer = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="1"
-      className=" w-full flex gap-5 h-screen bg-zinc-900 p-20"
+      className=" w-full flex gap-5 h-screen bg-zinc-900 p-20 max-sm:gap-1 max-sm:p-5"
     >
       <div className="w-1/2 h-full flex flex-col justify-between">
         <div className="headings">
-          <h1 className="text-[8vw]  font-semibold uppercase leading-none -mb-5">
+          <h1 className="text-[8vw] max-sm:text-[6vw] font-semibold uppercase leading-none -mb-5 max-sm:mb-0">
             Eye-
           </h1>
-          <h1 className="text-[8vw] font-semibold uppercase leading-none -mb-5">
+          <h1 className="text-[8vw] max-sm:text-[6vw] font-semibold uppercase leading-none -mb-5">
             Opening
           </h1>
         </div>

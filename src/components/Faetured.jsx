@@ -18,17 +18,19 @@ const Faetured = () => {
       className="w-full py-20 relative z-10"
     >
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-20">
-        <h1 className="text-8xl tracking-tight">Featured Projects</h1>
+        <h1 className="text-8xl md:text-4xl tracking-tight">
+          Featured Projects
+        </h1>
       </div>
       <div className="px-20">
-        <div className="cards  w-full flex gap-10 mt-10">
+        <div className="cards  w-full flex gap-10 mt-10 md:justify-center md:items-center max-sm:flex-col">
           {/* card1 */}
           <motion.div
             onHoverStart={() => handleHover(0)}
             onHoverEnd={() => handleHoverEnd(0)}
-            className="cardContainer w-1/2 rounded-xl h-[75vh]  relative"
+            className="cardContainer w-1/2 rounded-xl h-[75vh] md:h-[60vh]  relative max-sm:w-full"
           >
-            <h1 className="absolute left-full top-1/2 -translate-x-1/2 -translate-y-1/2  z-[9] text-8xl flex leading-none tracking-tighter text-[#CDEA68] overflow-hidden">
+            <h1 className="absolute left-full top-1/2 -translate-x-1/2 -translate-y-1/2  z-[9] text-8xl flex leading-none tracking-tighter text-[#CDEA68] overflow-hidden max-sm:left-1/2">
               {"FYDE".split("").map((item, index) => (
                 <>
                   <motion.span
@@ -61,9 +63,9 @@ const Faetured = () => {
           <motion.div
             onHoverStart={() => handleHover(1)}
             onHoverEnd={() => handleHoverEnd(1)}
-            className="cardContainer w-1/2 rounded-xl h-[75vh] relative"
+            className="cardContainer w-1/2 rounded-xl h-[75vh] relative max-sm:w-full"
           >
-            <h1 className="absolute right-full top-1/2 translate-x-1/2 -translate-y-1/2  z-[9] text-8xl flex overflow-hidden leading-none tracking-tighter text-[#CDEA68]">
+            <h1 className="absolute right-full top-1/2 translate-x-1/2 -translate-y-1/2  z-[9] text-8xl flex overflow-hidden leading-none tracking-tighter text-[#CDEA68] max-sm:right-1/2">
               {"VISE".split("").map((item, index) => (
                 <>
                   <motion.span

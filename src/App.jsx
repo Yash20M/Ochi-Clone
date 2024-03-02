@@ -35,7 +35,7 @@ const App = () => {
         div
         id="your-scroll-container"
         data-scroll-container
-        className="w-full min-h-screen text-white bg-zinc-900"
+        className="w-full overflow-hidden min-h-screen text-white bg-zinc-900"
       >
         {/* <Loader /> */}
         <Navbar />
@@ -52,4 +52,3 @@ const App = () => {
 };
 
 export default App;
-
